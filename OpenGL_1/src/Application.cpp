@@ -94,7 +94,7 @@ int main(void)
 
 		IndexBuffer ib(indices, 6);
 
-		Shader shader("res/shaders/Basic.shader");
+		Shader shader("res/shaders/Basic1.shader");
 		shader.Bind();
 
 		/*ShaderProgramSource source = ParseSahder("res/shaders/Basic.shader");
@@ -141,7 +141,7 @@ int main(void)
 			/* Render here */
 			renderer.Clear();
 
-
+			//
 
 			//drawing
 			//CRTANJE TROKUTA S LEGACY GL(iz 97. :-) )
