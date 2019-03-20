@@ -116,7 +116,6 @@ int main(void)
 			/*GLCall(glUseProgram(shader));*/
 			shader.Bind();
 			shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
-			/*GLCall(glUniform4f(location, r, 0.3f, 0.8f, 1.0f));*/
 
 
 			
